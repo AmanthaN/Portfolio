@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   
+    <style>
+        
+        /* CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/web.jpg'); /* Add your background image URL */
+            background-size: 100%;
+            backdrop-filter: blur(5px);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            backdrop-filter: blur(10px);
+            background: rgba(212, 215, 255, 0.377);
+            border-radius: 0px;
+            margin-bottom: 20px;
+        }
+
+        .social-buttons button {
+            margin-left: 10px;
+            background-color: #0000008f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-buttons button:hover {
+            background-color: #ececec98;
+        }
+
+        .container {
+    width: 600px;
+    height: 280px;
+    margin: -50px 20px 20px 50px; /* Adjust margin-top and margin-left for positioning */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+
+
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: rgba(212, 215, 255, 0.377);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .section-content {
+            flex: 1;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(212, 215, 255, 0.377);
+            border-radius: 0px;
+            backdrop-filter: blur(10px);
+            color: #333;
+            position: bottom;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .banner h1 {
+        font-size: 120px;
+        margin-left: 100px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition: font-size 0.3s ease, transform 0.3s ease;
+        max-width: 800px;
+        }
+        /*---------------------card1----------------------------------*/
+        .card {
+        width: 280px;
+        height: 280px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0px ;
+        overflow: hidden;
+        
+        
+        }
+
+        .card img {
+             width: 100%;
+             height: 200px;
+             object-fit: cover;
+             transition: transform 0.5s ease;
+             
+        }
+
+        .card-content {
+        padding: 20px;
+        }
+
+        .card-content h3 {
+        margin: 0 0 10px;
+         font-size: 24px;
+        }
+
+        .card img:hover{
+            
+            transform: scale(1.2);
+        }
+        /*------------------------card2-------------------------------*/
+        .card2 {
+        width: 280px;
+        height: 280px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: -280px;
+        margin-left: 300px;
+        overflow: hidden;
+        }
+
+        .card2 img {
+             width: 100%;
+             height: 200px;
+             object-fit: cover;
+             transition: transform 0.5s ease;
+        }
+
+        .card2-content {
+        padding: 20px;
+        }
+
+        .card2-content h3 {
+        margin: 0 0 10px;
+         font-size: 24px;
+        }
+        .card2 img:hover{
+            
+            transform: scale(1.2);
+
+        }
+
+
+        .banner h1:hover {
+    
+             transform: translateY(-20px); /* Move the text up slightly */
+             background-color: none;
+        }
+        .email{
+    margin-left: -1190px;
+    margin-bottom: -60px;
+    
+}
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        
+        <div class="name">
+            <h1>Welcome! This is my portfolio</h1>
+        </div>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="Apps.html">APPS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="banner">
+        <h1>APPS</h1>
+    </div>
+    
+
+    <div class="container">
+        <div class="card">
+            <img src="images/pos.jpg" alt="Card Image">
+            <div class="card-content">
+                <h3>Minimart Management System</h3>
+                
+            </div>
+
+            
+        </div>
+        <div class="card2">
+            <img src="images/c2.jpg" alt="Card Image">
+            <div class="card-content">
+                <h3>Agri Info Management System</h3>
+                
+            </div>
+        </div>
+        
+        
+        
+        
+
+        
+            
+          
+        </div>
+
+        
+    </div>
+
+    <div class="footer">
+        <div class="email"><h3>amanthanirmal2002@gmail.com</h3>
+        </div>
+        
+        
+        <div class="social-buttons">
+            <a href="https://www.facebook.com" target="_blank"><button>Facebook</button></a>
+            <a href="https://www.instagram.com" target="_blank"><button>Instagram</button></a>
+            <a href="https://www.linkedin.com" target="_blank"><button>LinkedIn</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
